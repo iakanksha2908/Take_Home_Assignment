@@ -1,9 +1,15 @@
 package com.assignment.receiptprocessor.model;
-
+import java.time.*;
+import java.util.*;
 public class Receipt {
 
-    String retailer;
-    LocalDate purchaseDate;
-    LocalTime purchaseTime;
+    @Id
+    private String id;
+    
+    private String retailer;
+    private LocalDate purchaseDate;
+    private LocalTime purchaseTime;
+    private List<Item> items;
+    private double total;
 
 }
