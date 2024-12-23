@@ -40,7 +40,7 @@
 
 ### curl command
 
-curl -Uri "http://localhost:9090/receipts/process" `
+### curl -Uri "http://localhost:9090/receipts/process" `
 -Method POST `
 -Headers @{"Content-Type" = "application/json"} `
 -Body '{
